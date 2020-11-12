@@ -968,6 +968,7 @@ h5 {
 
 .what-is__body .title {
   margin: 0px 0px 29px 0px;
+  color: #fff;
 }
 
 .what-is__body .title::after {
@@ -2357,6 +2358,25 @@ h5 {
     margin: 0px 0px 20px 0px;
   }
 
+  .main__checkbox label {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .main__checkbox label .tooltip {
+    max-width: 170px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .main__checkbox label .tooltip::after {
+    bottom: 20%;
+    left: -15px;
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+
   .why__column {
     width: 100%;
   }
@@ -2386,6 +2406,10 @@ h5 {
 
   .main__select .choices[data-type*=select-one]::before {
     top: 11px;
+  }
+
+  .main__checkbox label .tooltip {
+    max-width: 130px;
   }
 }
 
